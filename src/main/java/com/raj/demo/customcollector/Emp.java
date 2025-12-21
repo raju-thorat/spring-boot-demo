@@ -1,4 +1,4 @@
 package com.raj.demo.customcollector;
 
-public class SecurityData {
+public record Emp(int i){
 }

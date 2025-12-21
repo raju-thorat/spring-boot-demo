@@ -1,5 +1,6 @@
 package com.raj.demo;
 
+import com.raj.demo.customcollector.MyCollector;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -15,8 +16,7 @@ public class DemoApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-
-
+        MyCollector.run();
     }
 
 }
